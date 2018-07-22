@@ -30,6 +30,7 @@
             this.outlinedLabel3 = new Tarsier.Labels.OutlinedLabel();
             this.outlinedLabel2 = new Tarsier.Labels.OutlinedLabel();
             this.outlinedLabel1 = new Tarsier.Labels.OutlinedLabel();
+            this.outlinedLabel8 = new Tarsier.Labels.OutlinedLabel();
             this.SuspendLayout();
             // 
             // outlinedLabel7
@@ -123,11 +124,25 @@
             this.outlinedLabel1.TabIndex = 0;
             this.outlinedLabel1.Text = "outlinedLabel1";
             // 
+            // outlinedLabel8
+            // 
+            this.outlinedLabel8.AutoSize = true;
+            this.outlinedLabel8.Font = new System.Drawing.Font("French Script MT", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outlinedLabel8.ForeColor = System.Drawing.Color.Blue;
+            this.outlinedLabel8.Location = new System.Drawing.Point(40, 334);
+            this.outlinedLabel8.Name = "outlinedLabel8";
+            this.outlinedLabel8.OutlineColor = System.Drawing.Color.Green;
+            this.outlinedLabel8.OutlineWidth = 10F;
+            this.outlinedLabel8.Size = new System.Drawing.Size(227, 55);
+            this.outlinedLabel8.TabIndex = 7;
+            this.outlinedLabel8.Text = "outlinedLabel8";
+            // 
             // DemoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 386);
+            this.ClientSize = new System.Drawing.Size(382, 404);
+            this.Controls.Add(this.outlinedLabel8);
             this.Controls.Add(this.outlinedLabel7);
             this.Controls.Add(this.outlinedLabel6);
             this.Controls.Add(this.outlinedLabel5);
@@ -151,6 +166,7 @@
         private OutlinedLabel outlinedLabel5;
         private OutlinedLabel outlinedLabel6;
         private OutlinedLabel outlinedLabel7;
+        private OutlinedLabel outlinedLabel8;
     }
 }
 
